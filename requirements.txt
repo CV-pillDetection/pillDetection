@@ -6,6 +6,8 @@ torch
 opencv-python
 numpy
 pandas
+scikit-learn
+seaborn
 
 ultralytics
 easyocr
