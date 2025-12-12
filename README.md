@@ -15,6 +15,7 @@ pillDetection/
 ├── YOLO_augmentation.ipynb               # YOLO 데이터 증강
 ├── resnet_training.ipynb                 # ResNet-50 형상/색상 분류 학습
 ├── pill_matching_results.xlsx            # 매칭 결과
+├── requirements.txt                      # 필요 라이브러리
 └── README.md
 ```
 

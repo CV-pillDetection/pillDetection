@@ -1,0 +1,16 @@
+requests~=2.32.5
+tqdm~=4.67.1
+PyYAML~=6.0.3
+
+torch
+opencv-python
+numpy
+pandas
+
+ultralytics
+easyocr
+matplotlib
+
+torchvision
+Pillow
+google-cloud-vision
