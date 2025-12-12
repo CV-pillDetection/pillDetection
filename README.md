@@ -21,8 +21,8 @@ pillDetection/
 ├── .gitignore                            # Git 무시 파일 설정
 ├── demo.ipynb                            # 통합 알약 탐지·식별 데모 노트북
 ├── drug_info_unique_drug_id_final.csv    # 약품 메타데이터 DB
-├── pill_matching_results.csv             # 매칭 결과(텍스트 버전)
-├── pill_matching_results.xlsx            # 매칭 결과(엑셀 버전)
+├── pill_matching_results.csv             # 매칭 결과
+├── pill_matching_results_final.xlsx      # 매칭 결과(엑셀 버전, 보고서 기준)
 ├── README.md                             # 프로젝트 사용 설명
 ├── requirements.txt                      # 의존 라이브러리 목록
 └── team8_presentation.pdf                # 팀 발표 자료 PDF
