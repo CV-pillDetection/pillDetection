@@ -21,7 +21,6 @@ pillDetection/
 ├── .gitignore                            # Git 무시 파일 설정
 ├── demo.ipynb                            # 통합 알약 탐지·식별 데모 노트북
 ├── drug_info_unique_drug_id_final.csv    # 약품 메타데이터 DB
-├── K-000250-000573-002483-006192_0_2_0_2_70_000_200.png   # 샘플 조합 이미지
 ├── pill_matching_results.csv             # 매칭 결과(텍스트 버전)
 ├── pill_matching_results.xlsx            # 매칭 결과(엑셀 버전)
 ├── README.md                             # 프로젝트 사용 설명
