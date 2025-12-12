@@ -7,16 +7,27 @@
 ### 파일 구조
 ```commandline
 pillDetection/
+├── images/                               # 테스트용 알약 이미지 폴더
+├── output/                               # 시각화·결과 저장 폴더
+├── utils/                                # 학습/전처리 관련 유틸 노트북
+│   ├── merge_coco_to_yolo.ipynb          # COCO → YOLO 포맷 변환
+│   ├── resnet_training.ipynb             # ResNet-50 형상·색상 분류 학습
+│   └── YOLO augmentation.ipynb           # YOLO 학습용 데이터 증강
 ├── weights/                              # 학습된 모델 가중치
-├── images/                               # 경구약제 조합 이미지
-├── drug_info_unique_drug_id_final.csv    # 약품 정보 데이터베이스
-├── demo.ipynb                            # 최종 알약 탐지 파이프라인
-├── merge_coco_to_yolo.ipynb              # COCO→YOLO 데이터 변환
-├── YOLO_augmentation.ipynb               # YOLO 데이터 증강
-├── resnet_training.ipynb                 # ResNet-50 형상/색상 분류 학습
-├── pill_matching_results.xlsx            # 매칭 결과
-├── requirements.txt                      # 필요 라이브러리
-└── README.md
+│   ├── best.pt                           # YOLO 최종(best) 가중치
+│   ├── last.pt                           # YOLO 마지막 에폭 가중치
+│   ├── pill_shape_color_resnet50_improved_best_color.pth  # 색상 분류기
+│   └── pill_shape_color_resnet50_improved_best_shape.pth  # 형상 분류기
+├── .gitignore                            # Git 무시 파일 설정
+├── demo.ipynb                            # 통합 알약 탐지·식별 데모 노트북
+├── drug_info_unique_drug_id_final.csv    # 약품 메타데이터 DB
+├── K-000250-000573-002483-006192_0_2_0_2_70_000_200.png   # 샘플 조합 이미지
+├── pill_matching_results.csv             # 매칭 결과(텍스트 버전)
+├── pill_matching_results.xlsx            # 매칭 결과(엑셀 버전)
+├── README.md                             # 프로젝트 사용 설명
+├── requirements.txt                      # 의존 라이브러리 목록
+└── team8_presentation.pdf                # 팀 발표 자료 PDF
+
 ```
 
 ### 시스템 구성
